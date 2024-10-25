@@ -166,6 +166,7 @@ const HomenagemPai = () => {
           onClose={() => setSelectedCard(null)} 
         />
       )}
+
     </div>
   );
 };
