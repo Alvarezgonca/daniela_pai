@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Heart, Gift, Cake, Star, X } from 'lucide-react';
+import './styles.css';
 
 const HomenagemPai = () => {
   const [showMessage, setShowMessage] = useState(0);
@@ -165,13 +166,6 @@ const HomenagemPai = () => {
           onClose={() => setSelectedCard(null)} 
         />
       )}
-
-      <style jsx>{`
-        @keyframes fall {
-          0% { transform: translateY(-10px) rotate(0deg); }
-          100% { transform: translateY(100vh) rotate(360deg); }
-        }
-      `}</style>
     </div>
   );
 };
