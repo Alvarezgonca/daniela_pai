@@ -28,9 +28,9 @@ const HomenagemPai = () => {
       title: "Amor Infinito",
       icon: <Heart className="text-red-500 mb-2" size={32} />,
       photos: [
-        { src: "/foto.jpg", caption: "Nosso primeiro passeio juntos" },
-        { src: "/foto.jpg", caption: "Abraço de pai" },
-        { src: "/foto.jpg", caption: "Momentos de carinho" }
+        { src: "/img9.jpg"},
+        { src: "/img10.jpg"},
+        { src: "/img11.jpg"}
       ],
       message: "Pai, seu amor é minha maior força. Cada abraço seu me faz sentir segura e amada."
     },
@@ -38,9 +38,9 @@ const HomenagemPai = () => {
       title: "Momentos Especiais",
       icon: <Gift className="text-blue-500 mb-2" size={32} />,
       photos: [
-        { src: "/foto.jpg", caption: "Nossa viagem inesquecível" },
-        { src: "/foto.jpg", caption: "Aniversário especial" },
-        { src: "/foto.jpg", caption: "Nossos domingos em família" }
+        { src: "/img5.jpg"},
+        { src: "/img6.jpg"},
+        { src: "/img8.jpg"}
       ],
       message: "Cada momento ao seu lado é um tesouro que guardo no coração. Nossas risadas, conversas e aventuras são memórias preciosas."
     },
@@ -48,9 +48,9 @@ const HomenagemPai = () => {
       title: "Meu Herói",
       icon: <Star className="text-yellow-500 mb-2" size={32} />,
       photos: [
-        { src: "/foto.jpg", caption: "Meu exemplo de vida" },
-        { src: "/foto.jpg", caption: "Meu protetor" },
-        { src: "/foto.jpg", caption: "Meu maior herói" }
+        { src: "/img1.jpg"},
+        { src: "/img3.jpg"},
+        { src: "/img4.jpg"}
       ],
       message: "Você é meu exemplo de força, caráter e dedicação. Tenho muito orgulho de ser sua filha!"
     }
@@ -102,7 +102,7 @@ const HomenagemPai = () => {
         <div className="mb-8">
           <div className="w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden border-4 border-pink-500">
             <img 
-              src="/foto.jpg" 
+              src="/img7.jpg" 
               alt="Espaço para foto do pai"
               className="w-full h-full object-cover"
             />
